@@ -7,8 +7,8 @@ class WriterQuerys:
     def get_all_writers(self):
         return Writer.query.all()
     
-    def get_writer_by_id(self, people_id):
-        return Writer.query.get(people_id)
+    def get_writer_by_id(self, writer_id):
+        return Writer.query.get(writer_id)
     
     def create_writer(self, data:dict):
         writer_new = Writer(**data)
