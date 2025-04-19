@@ -1,1 +1,1 @@
-from .people_model import People
+from .writer_model import Writer
