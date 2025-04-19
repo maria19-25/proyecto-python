@@ -27,5 +27,5 @@ services:
       - api-myprimera-app
 
 networks:
-  api-develop-app:
+  api-myprimera-app:
     driver: bridge
